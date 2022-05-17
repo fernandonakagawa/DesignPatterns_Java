@@ -11,11 +11,12 @@ package adapterdemo;
  */
 public class AdapterDemo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        AudioPlayer ap = new AudioPlayer();
+        ap.play("mp3", "Black");
+        ap.play("vlc", "Evidências");
+        ap.play("mp4", "É o tchan");
+        ap.play("wma", "5ª Sinfonia");
     }
     
 }
