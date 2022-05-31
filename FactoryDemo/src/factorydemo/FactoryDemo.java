@@ -15,15 +15,18 @@ public class FactoryDemo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        IForma forma1 = FactoryForma.getForma("retangulo");
+        FactoryForma formaFactory = new FactoryForma();
+        IForma forma1 = formaFactory.getForma("circulo");
         forma1.desenhar();
-        IForma forma2 = FactoryForma.getForma("triangulo");
+        IForma forma2 = formaFactory.getForma("retangulo");
         forma2.desenhar();
-        IForma forma3 = FactoryForma.getForma("circulo");
+        IForma forma3 = formaFactory.getForma("triangulo");
         forma3.desenhar();
+
         //Forma não fabricada pela FactoryForma
-        //IForma forma4 = FactoryForma.getForma("losango");
+        //IForma forma4 = formaFactory.getForma("losango");
         //forma4.desenhar();
+
     }
     
 }

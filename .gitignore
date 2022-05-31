@@ -27,3 +27,5 @@ hs_err_pid*
 /FactoryDemo/build/
 /SingletonDemo/nbproject/private/
 /SingletonDemo/build/
+/AbstractFactoryDemo/nbproject/private/
+/AbstractFactoryDemo/build/
