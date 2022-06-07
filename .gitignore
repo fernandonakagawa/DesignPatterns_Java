@@ -31,3 +31,9 @@ hs_err_pid*
 /AbstractFactoryDemo/build/
 /FacadeDemo/nbproject/private/
 /FacadeDemo/build/
+/CompositeDemo/nbproject/private/
+/ObserverDemo/nbproject/private/
+/ProxyDemo/nbproject/private/
+/ProxyDemo/build/
+/CompositeDemo/build/
+/ObserverDemo/build/
