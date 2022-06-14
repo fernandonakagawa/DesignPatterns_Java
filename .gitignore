@@ -39,3 +39,5 @@ hs_err_pid*
 /ObserverDemo/build/
 /CommandDemo/nbproject/private/
 /CommandDemo/build/
+/VisitorDemo/nbproject/private/
+/VisitorDemo/build/
