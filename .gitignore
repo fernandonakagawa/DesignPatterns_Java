@@ -37,3 +37,5 @@ hs_err_pid*
 /ProxyDemo/build/
 /CompositeDemo/build/
 /ObserverDemo/build/
+/CommandDemo/nbproject/private/
+/CommandDemo/build/
